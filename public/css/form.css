@@ -91,10 +91,13 @@ fieldset + fieldset {
     right: 10px;
     bottom: 8px;
     background: #FFFFFF;
-    /* Back / Lines in white */
     border: 1px solid #D3E2E5;
     box-sizing: border-box;
     border-radius: 10px;
     display: flex;
     cursor: pointer;
+}
+
+.new-upload + .new-upload {
+    margin-top: 2.4rem;
 }
